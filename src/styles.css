@@ -29,7 +29,7 @@ body {
 
 .display {
     width: 100%;
-    padding:8px;
+    padding: 8px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 1.2em
@@ -37,7 +37,7 @@ body {
 
 .keyboard {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-gap: 16px;
     font-size: 1.2em;
     font-weight: bold;
@@ -50,4 +50,13 @@ button {
     background-color: #efefef;
     padding: 8px;
     cursor: pointer;
+}
+
+.span2 {
+    grid-column: span 2;
+}
+
+.primary {
+    background-color: #ffeec2;
+    color: #c49023
 }
