@@ -1,9 +1,5 @@
 import React from 'react';
 
 export default function Button(props){
-return <button onClick={() => 
-         {props.SetState(props.value)}
-        }>
-          {props.value}
-      </button>
+return <button className={props.className} onClick={() => { props.SetState(props.value) }}> {props.value}</button>
 }
